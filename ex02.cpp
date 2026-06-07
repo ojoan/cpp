@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+    //Calculating the tip and splitting a restaurant bill
+
 int main() {
     float billTotal, divide;
     int tip, numberPeople;
@@ -17,6 +19,6 @@ int main() {
     billTotal = billTotal + (billTotal * tip/100);
     divide = billTotal/numberPeople;
 
-    printf("The amount of the bill: $%.2f\n ", billTotal);
+    printf("The amount of the bill: $%.2f\n", billTotal);
     printf("The amount divided by %d people was: $%.2f", numberPeople, divide);
 }
