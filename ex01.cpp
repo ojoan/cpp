@@ -1,8 +1,8 @@
-#include<stdlib.h>
 #include<stdio.h>
 
 int main() {
-    int v1, v2;
+    int v1, v2, v3;
+
 
     printf("Enter two values:\n");
     printf("value 1: ");
@@ -10,5 +10,11 @@ int main() {
     printf("value 2: ");
     scanf("%d", &v2);
 
+    printf("The value 1 is %d and the value 2 is %d \n", v1, v2);
+
+    v3 =v1;
+    v1 =v2;
+    v2 =v3;
+    printf("\nInverted values\n");
     printf("The value 1 is %d and the value 2 is %d \n", v1, v2);
 }
