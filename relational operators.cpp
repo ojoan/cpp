@@ -14,11 +14,23 @@ int main() {
 
     //check if the number is negative
     if (-5<0) {
-        printf("negative value");
+        printf("negative value\n");
     }else {
-        printf("positive value");
+        printf("positive value\n");
     }
 
+
+    //true and false
+    /*
+     0 - false
+     != 0 - true
+     */
+
+    if (1) {
+        printf("-----------------\n");
+    }else {
+        printf("+++++++++++++++\n");
+    }
 
 
     return 0;
